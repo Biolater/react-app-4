@@ -1,0 +1,66 @@
+.info{
+    padding: 80px 32px;
+    background-color: var(--dark-color);
+}
+
+.info .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.student,
+.video-icon{
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.student .number{
+    font-size: 32px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.student p{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Alegreya";
+}
+
+.info h3,
+.info p{
+    margin: 0;
+}
+
+.info .bg-image{
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+
+
+.video-icon .hours{
+    font-size: 32px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.video-icon p{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Alegreya";
+}
+
+
+
+@media(max-width:792px){
+    .info .wrapper{
+        flex-direction: column;
+        gap: 80px;
+    }
+}
+
